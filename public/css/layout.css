@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #5385c2 url(../images/blueHeader.jpg)  no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,17 +52,18 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   font: 70px/1.1em 'opensans-bold', sans-serif;
+   color: #01031b;
+   font-weight: 600;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
@@ -187,7 +188,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: /*#2B2B2B*/ #01031b ;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -197,19 +198,21 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 40px 'Canela Web';
+   font-weight: 600;
    color: #fff;
    margin-bottom: 12px;
+   border-bottom: dotted 2px #7a7a7a;
 }
 #about p {
    line-height: 30px;
+   font-family: Roboto Mono, Courier, Helvetica, Arial, sans-serif;
    color: #7A7A7A;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 100%;
+   border-radius: .5%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
