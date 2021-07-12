@@ -96,6 +96,11 @@ let resumeData = {
         "description":"",
         "imgurl":"images/localhost_3001_notes (1).png"
       },
+      {
+        "name":"Employee Tracke",
+        "description":"",
+        "imgurl":"images/employee-tracker.png"
+      }
     ],
     "testimonials":[
       {

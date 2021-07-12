@@ -420,8 +420,7 @@ ul#nav li.current a { color: yellow; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 24px 'Canela Web', sans-serif;
-   text-transform: uppercase;
+   font: 40px 'Canela Web';
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
@@ -1008,5 +1007,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: rgb(51, 75, 214); }
 
