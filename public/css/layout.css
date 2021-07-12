@@ -420,7 +420,7 @@ ul#nav li.current a { color: yellow; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px 'Canela Web', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -468,8 +468,8 @@ ul#nav li.current a { color: yellow; }
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
-   height: 30px;
-   width: 30px;
+   height: 500px;
+   width: 500px;
    font-size: 18px;
    line-height: 30px;
    text-align: center;
@@ -502,6 +502,8 @@ ul#nav li.current a { color: yellow; }
    color: #c6c7c7;
    margin-bottom: 0;
 }
+
+
 
 /* on hover */
 .portfolio-item:hover .overlay {
